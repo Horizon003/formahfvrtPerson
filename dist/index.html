@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101a35" />
+    <meta name="description" content="A tiny digital scrapbook for Cutie — The Education Valley." />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>The Education Valley — For Cutie</title>
+    <script type="module" crossorigin src="/assets/index-AYdtua4b.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CZCv5Uol.css">
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <main>
+      <section class="gate" id="gate" aria-labelledby="gate-title">
+        <div class="gate-stars" aria-hidden="true"><span>✦</span><span>✧</span><span>✦</span><span>·</span><span>✧</span></div>
+        <div class="gate-card paper-card">
+          <div class="notebook-mark" aria-hidden="true"><span>♡</span></div>
+          <p class="eyebrow">a tiny place, made only for</p>
+          <h1 id="gate-title">Cutie<span class="pink-dot">.</span></h1>
+          <p class="gate-copy">Before the memories open, there is one little phrase only you would know.</p>
+          <div class="code-label-row"><span>complete the title</span><span class="lock-pill" id="lock-status"><span class="lock-icon">⌑</span> locked</span></div>
+          <div class="phrase-board" aria-live="polite" aria-label="Secret phrase input">
+            <span id="phrase-value" class="phrase-value"></span><span class="caret" aria-hidden="true"></span>
+          </div>
+          <p class="hint-line">hint: it is where our old-school and new-university worlds meet.</p>
+          <div class="keyboard" id="keyboard" aria-label="Cute on-screen keyboard"></div>
+          <div class="gate-actions">
+            <button class="ghost-btn" id="clear-btn" type="button">clear</button>
+            <button class="primary-btn" id="unlock-btn" type="button"><span>unlock our little world</span><span aria-hidden="true">↗</span></button>
+          </div>
+          <p class="error-message" id="error-message" role="alert"></p>
+          <div class="cat-peek cat-peek-left" aria-hidden="true">ฅ^•ﻌ•^ฅ</div>
+          <div class="cat-peek cat-peek-right" aria-hidden="true">=^･ω･^=</div>
+        </div>
+        <p class="gate-footer">made with a little courage, a lot of gratitude & one very special connection <span>♡</span></p>
+      </section>
+
+      <section class="story is-hidden" id="story" aria-label="Our scrapbook story">
+        <header class="story-header reveal-on-unlock">
+          <div class="top-nav"><span class="mini-logo"><span>✦</span> THE EDUCATION VALLEY</span><button class="sound-btn" id="sound-btn" type="button" aria-pressed="false"><span class="sound-icon">♫</span><span id="sound-label">play our little soundtrack</span></button></div>
+          <div class="hero-copy">
+            <p class="eyebrow">dear Cutie, this is your little corner of the internet</p>
+            <h2>Some connections feel<br /><em>familiar</em> before we know why.</h2>
+            <p class="hero-note">School to university. Old result cards to new deadlines. Somehow, it was always you in the frame.</p>
+            <a class="scroll-cue" href="#timer"><span class="scroll-arrow">↓</span> turn the page</a>
+          </div>
+          <div class="hero-doodle" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><span class="doodle-star star-a">✦</span><span class="doodle-star star-b">✧</span><span class="doodle-heart">♡</span><span class="doodle-cat">ฅ(•ㅅ•❀)ฅ</span></div>
+        </header>
+
+        <section class="timer-section reveal-section" id="timer">
+          <div class="torn-label">secret memory timer</div>
+          <div class="timer-copy"><p class="eyebrow">since the connection became a little more than a connection</p><h3>Look how long<br />you’ve been <em>my person.</em></h3><p class="soft-copy">The clock keeps moving, but the feeling is still that same calm, happy vibe I get whenever I look at you.</p></div>
+          <div class="timer-card paper-card"><div class="timer-topline"><span>our time capsule</span><span class="tiny-heart">♥</span></div><div class="timer-grid"><div><strong id="years">01</strong><span>years</span></div><div><strong id="months">07</strong><span>months</span></div><div><strong id="days">00</strong><span>days</span></div><div><strong id="hours">00</strong><span>hours</span></div><div><strong id="minutes">00</strong><span>minutes</span></div><div><strong id="seconds">00</strong><span>seconds</span></div></div><p class="timer-caption">and still counting, in sha Allah <span>✦</span></p></div>
+          <div class="timer-tape tape-left" aria-hidden="true"></div><div class="timer-tape tape-right" aria-hidden="true"></div>
+        </section>
+
+        <section class="timeline-section reveal-section" id="timeline">
+          <div class="section-intro"><p class="eyebrow">a very small history of us</p><h3>From old school corridors<br />to <em>university days.</em></h3><p>Different buildings, same familiar energy. And then you told me the sweetest plot twist: hum school main bhi sath thay.</p></div>
+          <div class="timeline">
+            <article class="timeline-note note-school"><span class="pin">✦</span><span class="note-number">01</span><h4>school days</h4><p>Before I even knew the whole story, there was already something familiar about you.</p><span class="note-scribble">old chapters</span></article>
+            <div class="timeline-line" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+            <article class="timeline-note note-college"><span class="pin">♡</span><span class="note-number">02</span><h4>college ki vibe</h4><p>Jab hum college aaye, mujhay apko dekh kar alag hi vibe ati thi yar. Kuch to connection hay humara.</p><span class="note-scribble">wait... we know each other?</span></article>
+            <article class="timeline-note note-uni"><span class="pin">✧</span><span class="note-number">03</span><h4>university / batchmates</h4><p>Now we are here, sharing notes, stress, little wins, and the same beautiful academic chaos.</p><span class="note-scribble">same team</span></article>
+            <article class="timeline-note note-now"><span class="pin">♥</span><span class="note-number">04</span><h4>1 year 7 months</h4><p>And still, she is bearing me. You are honestly a gem, Cutie. In sha Allah, in the future too.</p><span class="note-scribble">still us</span></article>
+          </div>
+          <div class="cat-sticker sticker-school" aria-hidden="true">ฅ^•ﻌ•^ฅ<small>study buddy</small></div>
+          <div class="cat-sticker sticker-uni" aria-hidden="true">=^･ω･^=<small>deadline survivor</small></div>
+          <img class="generated-cats" src="/assets/cutie-cat-sticker.webp" alt="" aria-hidden="true" />
+        </section>
+
+        <section class="message-section reveal-section" id="messages">
+          <div class="paper-stack message-intro"><span class="clip-mark">♡</span><p class="eyebrow">things i wanted you to know</p><h3>You are my<br /><em>Cutieeeee pieeee.</em></h3><p>Not because I need a reason. Just because seeing you makes the whole world feel a little softer.</p></div>
+          <div class="message-grid">
+            <article class="message-card card-rose"><span class="card-tag">the simple truth</span><p>i really like her</p><span class="card-doodle">♡</span></article>
+            <article class="message-card card-yellow"><span class="card-tag">my favourite coincidence</span><p>i love u being my batchmate</p><span class="card-doodle">✦</span></article>
+            <article class="message-card card-blue"><span class="card-tag">a small promise</span><p>i always want to be stay with you</p><span class="card-doodle">→</span></article>
+            <article class="message-card card-coral wide-card"><span class="card-tag">the calm you bring</span><p>even mujhay koi reason bhi nhi chaiay apko love krnay ki. Apko dekh mujhay waisi hi alag si achi si pyari si calm feel ati hai. Main apko dekh kar sab kuch bhool jata hoon.</p><span class="card-doodle">☼</span></article>
+            <article class="message-card card-cream"><span class="card-tag">the reason, again</span><p>and thats the reason once again of loving you</p><span class="card-doodle">♥</span></article>
+            <article class="message-card card-pink wide-card"><span class="card-tag">when life gets heavy</span><p>Jab bhi mujhay emotional ho ya study need ho, jab bhi mujhay koi problem ho, jab mujhay koi stress ho, aap ne meri help ki hai.</p><span class="card-doodle">☁</span></article>
+          </div>
+          <img class="generated-graffiti" src="/assets/campus-graffiti.webp" alt="" aria-hidden="true" />
+          <div class="graffiti-strip" aria-hidden="true"><span>♡</span><span>you + me</span><span>✦</span><span>same sky, new chapters</span><span>♡</span></div>
+        </section>
+
+        <section class="memory-section reveal-section" id="memory">
+          <div class="memory-visual"><div class="result-card result-back"><span>RESULT CARD</span><b>school</b><i>the first chapter</i></div><div class="result-card result-front"><span>RESULT CARD</span><b>connection</b><i>still passing with flying colours</i><strong>★ ★ ★ ★ ★</strong></div><div class="memory-cat" aria-hidden="true">ฅ(＾・ω・＾ฅ)</div></div>
+          <div class="memory-copy"><p class="eyebrow">that old-results-card feeling</p><h3>Then you told me.<br />And I went back to <em>look.</em></h3><p>Fer apnay bataya mujhay. And I saw those puranay result cards — and I really loved that thing. It felt like finding a hidden page in a story I already wanted to keep reading.</p><div class="quote-line"><span>“</span><p>kuch to connection hay humara</p><span>”</span></div></div>
+        </section>
+
+        <section class="thankyou-section reveal-section" id="thankyou">
+          <div class="thankyou-starburst" aria-hidden="true">✦</div><p class="eyebrow">for every ordinary day you made better</p><h3>For that aaa huge<br /><em>thank u mah girl.</em></h3><p class="thankyou-copy">You help me through the emotional days, the study days, the stressful days — and somehow, you make even the quiet days feel special.</p><div class="thankyou-cats" aria-hidden="true"><span>ฅ^•ﻌ•^ฅ</span><span>♡</span><span>=^･ω･^=</span></div>
+        </section>
+
+        <section class="final-section reveal-section" id="final">
+          <div class="final-card paper-card"><div class="final-sparkle" aria-hidden="true">✧</div><p class="eyebrow">one last thing, Cutie</p><h3>I love you being<br /><em>my batchmate.</em></h3><p>I always want to be stay with you — through the next assignment, next semester, next chapter, and whatever comes after.</p><div class="final-buttons"><button class="primary-btn final-btn" id="forever-btn" type="button">Yes, forever &amp; always <span>♡</span></button><button class="small-note-btn" id="again-btn" type="button">read it again ↺</button></div><p class="final-response" id="final-response" aria-live="polite"></p></div><div class="final-footer">The Education Valley <span>✦</span> made for Cutie, with a full heart.</div>
+        </section>
+      </section>
+    </main>
+    <audio id="lofi-audio" src="/assets/cutie-lofi.mp3" loop preload="none"></audio>
+  </body>
+</html>
